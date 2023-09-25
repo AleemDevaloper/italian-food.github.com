@@ -1,0 +1,56 @@
+@font-face {
+    font-family: yese;
+    src: url(../../fonts/YesevaOne-Regular.ttf);
+  }
+  @font-face {
+    font-family: Raleway;
+    src: url(../../fonts/static/Raleway-Medium.ttf);
+  }
+
+.pasta{
+    color: #ffffff;
+    background: url(../../images/bg3.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.patxt{
+    max-width: 50vw;
+    font-size: 30px;
+    float: right;
+}
+.pa-h1{
+   font-family: 'yese';
+  font-size: 100px;
+}
+.pa-h2{
+    font-family: 'yese';
+    font-size: 60px;
+}
+.pa-br{
+    border: 2px solid #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    max-width: 40vw;
+    margin-bottom: 2vh;
+}
+.pa-h3{
+    font-size: 30px;
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+.pa-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d3695b;
+    color: #e4e4e4;
+}
+.pa-btn:hover{
+    background-color: #cf594a;
+    color: #ffffff;
+}

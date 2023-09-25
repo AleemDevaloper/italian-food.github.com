@@ -1,0 +1,384 @@
+/* Navigation bar resposive code start from here */
+@media (max-width:594px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media (max-width: 1100px ) {
+    .check-btn{
+        display: block;
+    }
+    .ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav .ul .li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav .ul .li .a{
+        font-size: 20px;
+    }
+    .a:hover,.a.active{
+        background: none;
+        color: #ffffff;
+    }
+    #check:checked ~ .ul{
+        left: 0;
+    }
+}
+/* Home section is start from here */
+@media (min-width: 1500px) {
+    .h-h1{
+        font-size: 180px;
+    }
+    .h-h2{
+        font-size: 80px;
+    }
+    .btn-light{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 30px;
+    }
+    .h-h3{
+        font-size: 50px;
+    }
+}
+@media (max-width: 550px) {
+    .h-h1{
+        font-size: 40px;
+    }
+    .h-h2{
+        font-size: 25px;
+    }
+    .h-h3{
+        font-size: 15px;
+    }
+
+}
+
+
+/* about section  */
+@media (max-width: 1024px ) {
+    .ab-img{
+        height: 490px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .about-us{
+        padding-top: 0px;
+    }
+.ab-f{
+    flex-direction: column;
+}
+.ab-br{
+    max-width: 50vw;
+}
+.col{
+    margin-top: 10vh;
+    width: 100vw !important;
+}
+.p-txt{
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+.ab-img{
+    height: 250px;
+    width: 100vw;
+}
+}
+@media (max-width: 425px ) {
+ 
+.ab-br{
+    max-width: 80vw;
+}
+.ab-h1{
+    font-size: 40px;
+}
+.ab-h3{
+  font-size: 15px;
+}
+}
+/* Over speciaties section is start from here */
+@media (min-width: 1500px) {
+.sec-h1{
+    font-size: 120px;
+}
+.sec-p{
+    font-size: 45px;
+}
+.btn-sec{
+    font-size: 30px;
+}
+
+}
+@media (max-width: 770px) {
+.sec-h1{
+    font-size: 50px;
+}
+.sec-p{
+    font-size: 18px;
+}
+.btn-sec{
+    font-size: 15px;
+}
+}
+
+@media (max-width: 430px) {
+.sec-h1{
+    font-size: 35px;
+}
+.sec-p{
+    font-size: 12px;
+}
+.btn-sec{
+    font-size: 8px;
+}
+
+}
+
+/* sepecial menu sectio is tart from here */
+@media (max-width: 880px) {
+.sep-img {
+    height: 220px;
+    width: 380px;
+}
+}
+@media (max-width: 771px) {
+    .sep-men-h1{
+        font-size: 50px;
+    }
+    .spec-d{
+        display: flex;
+        flex-direction: column;
+    }
+    .sep-img {
+        height: 220px;
+        width: 100%;
+    }
+}
+@media (max-width: 590px) {
+    .spec-img1 {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+}
+@media (max-width: 430px) {
+    .sep-men-h1{
+        font-size: 35px;
+    }
+    .sep-men-txt p{
+        font-size: 12px;
+    }
+
+}
+
+
+/* over services section is start from here */
+@media (max-width: 993px) {
+.our-serv{
+    max-width: 100%;
+}
+.our-serv-txt{
+    font-size: 45px;
+}
+}
+
+@media (max-width: 770px) {
+.our-serv{
+        max-width: 90%;
+    }
+.our-serv-img{
+        flex-direction: column;
+  }
+.our-serv-txt{
+    font-size: 30px;
+}
+  .our-ser-txt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.ser-p{
+    width: 60%;
+    text-align: center;
+}
+.serv-br2{
+    width: 60%;
+}
+}
+
+
+
+/* pasta section is start from here */
+
+    @media (min-width: 1500px) {
+.patxt{
+    max-width: 38vw;
+}
+
+ }
+ @media (min-width: 1680px) {
+    .pa-txt{
+        width: 100%;
+        margin-right: 5vw;
+    }
+    .pa-h2{
+        font-size: 80px;
+    }
+    .pa-h1{
+        font-size: 160px;
+    }
+    .pa-h3{
+        font-size: 60px;
+    }
+    .pa-btn{
+        font-size: 40px;
+        border-radius: 20px;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        margin-top: 3vh;
+    }
+ }
+ @media (max-width:1024px) {
+    .pa-h2{
+        font-size: 30px;
+    }
+    .pa-h1{
+        font-size: 70px;
+    }
+    .pa-h3{
+        font-size: 20px;
+    }
+
+ }
+ @media (max-width:1024px) {
+    .pa-txt{
+        width: 100%;
+        margin-right: 5vw;
+    }
+ }
+ @media (max-width: 680px) {
+.patxt{
+    float: left;
+    max-width: 100%;
+}
+.pa-h3{
+   width: 100%;
+}
+ }
+ @media (max-width: 425px) {
+    .patxt p{
+       font-size: 15px;
+    }
+ }
+
+ /* discover menu is start form here */
+ @media (max-width: 690px) {
+.dis-d{
+    flex-direction: column;
+}
+.dis-center img{
+    float: left; 
+    height: 200px;
+    width: 200px;
+}
+
+ }
+ @media (max-width: 515px) {
+.dish1{
+    font-size: 35px;
+}
+ }
+ @media (max-width: 477px) {
+    .dis-center img{
+        float: none; 
+        margin-left: 20vw;
+    }
+ }
+ @media (max-width: 350px) {
+    .dis-center img{
+        margin-left: 10vw;
+    }
+ }
+
+ /* fresh food section is start from here */
+ @media (max-width: 768px) {
+    .food-txt{
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .food-name{
+             font-size: 30px;
+    }
+    .prize{
+             font-size: 20px;
+    }
+    .food-h2 {
+  font-size: 30px;
+    }
+    .food-h1 {
+        font-size: 50px;
+      }
+ }
+ @media (max-width: 767px) {
+    .prize{
+        padding-top: 10vh;
+    }
+ }
+
+
+
+ /* bg4 section is start form here  */
+ @media (max-width: 1024px) {
+ .bg4-logo img{
+  max-width: 40%;
+ }
+ .bg4-txt{
+   font-size: 30px;
+ }
+ }
+   
+ @media (max-width: 770px) {
+    .bg4-logo img{
+     max-width: 100%;
+    }
+    .bg4-txt{
+      font-size: 20px;
+    }
+    }
+
+
+    /* footer section is start from here  */
+    @media (max-width: 626px) {
+        .f-res{
+            display: flex;
+            flex-direction: column;
+        }
+        .fot-h1{
+            font-size: 60px;
+        }
+       .fot-p{
+        font-size: 20px;
+       }
+       .fot-txt{
+        max-width: 100%;
+       }
+       .ul-fot-txt{
+        max-width: 90%;
+       }
+    }
